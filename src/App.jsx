@@ -62,7 +62,6 @@ export default function App() {
         }
       })
       .then((data) => {
-        // setUsers((users) => [...users, data]);
         const updatedUsers = users.map((user) => {
           if (user.id === id) {
             user.title = title;
